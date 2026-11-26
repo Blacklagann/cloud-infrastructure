@@ -1,0 +1,32 @@
+[33mcommit 86bf01a6cbe964e421c1488fef31d71c1e7ab25b[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-storage[m[33m)[m
+Author: AU <anthony.uong@gmail.com>
+Date:   Wed Nov 25 21:09:17 2026 -0800
+
+    Merge main branch and resolve conflicts
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 60044d2..b56963a 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,14 +1,18 @@[m
+  # Cloud Infrastructure Templates[m
+ [m
+[31m- This repository contains infrastructure as code templates for cloud deployments.[m
+[32m+[m[32mThis repository contains infrastructure as code templates for cloud deployments.[m
+ [m
+  ## Getting Started[m
+ [m
+[31m- Instructions for using these templates will be added soon.[m
+[32m+[m[32mInstructions for using these templates will be added soon.[m
+ [m
+  ## Network Configuration[m
+ [m
+[31m- The `network-setup.tf` file contains Terraform configuration for setting up a virtual network in Azure.[m
+[32m+[m[32mThe `network-setup.tf` file contains Terraform configuration for setting up a virtual network in Azure.[m
+[32m+[m
+[32m+[m[32m ## Compute Configuration[m
+[32m+[m
+[32m+[m[32m The repository includes templates for setting up virtual machines and compute resources.[m
+ [m
+  ## Storage Configuration[m
+ [m
